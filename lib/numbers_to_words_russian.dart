@@ -1,5 +1,7 @@
-class NumberToWordsRussian {
-  NumberToWordsRussian._();
+import 'numbers_to_words_russian_exception.dart';
+
+class NumbersToWordsRussian {
+  NumbersToWordsRussian._();
 
   static const String _zero = 'ноль';
 
@@ -173,6 +175,11 @@ class NumberToWordsRussian {
   }
 
   static String _convertLessTrillion(int number) {
+    if (number > 1000000000000) {
+      throw NumbersToWordsRussianException(
+          message: 'the number must be less than a trillion');
+    }
+
     if (number < 1000000000) {
       return _convertLessBillion(number);
     }
