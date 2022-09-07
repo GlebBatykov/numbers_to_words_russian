@@ -1,6 +1,6 @@
 name: numbers_to_words_russian
 description: Numbers to russian words converter. Supports numbers less than a trillion.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/GlebBatykov/numbers_to_words_russian
 
 environment:
