@@ -1,13 +1,13 @@
 <div align="center">
 
-**Языки:**
+**Languages:**
   
 [![English](https://img.shields.io/badge/Language-English-blue?style=?style=flat-square)](README.md)
 [![Russian](https://img.shields.io/badge/Language-Russian-blue?style=?style=flat-square)](README.ru.md)
 
 </div>
 
-Пример использования:
+Usage example:
 
 ```dart
 void main() {
@@ -21,7 +21,7 @@ void main() {
 }
 ```
 
-Ожидаемый вывод:
+Expected output:
 
 ```dart
 миллион двести двадцать пять тысяч восемьсот девяносто
