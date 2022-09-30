@@ -18,7 +18,7 @@ Usage example:
 
 ```dart
 void main() {
-    print(NumberToWordsRussian.convert(3567))
+    print(NumbersToWordsRussian.convert(3567))
 }
 ```
 
